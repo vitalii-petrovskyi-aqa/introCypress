@@ -1,11 +1,20 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require ("cypress");
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
-
+  watchForFileChanges: false,
+  defaultCommandTimeout: 20000,
+  viewportWidth: 1920,
+  viewportHeight: 1080,
+  numTestsKeptInMemory: 10,
+  blockHosts: ['*.google.com'],
+  chromeWebSecurity: false,
+  screenshotsFolder: 'screenshots',
+  videosFolder: 'video',
+  video: false,
   e2e: {
+    baseUrl: 'https://guest:welcome2qauto@qauto2.forstudy.space/',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      //on('test:after:run')
     },
   },
 });
