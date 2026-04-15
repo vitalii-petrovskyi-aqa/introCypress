@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Цільова версія JavaScript
+    "module": "commonjs", // Використовувати CommonJS модулі
+    "allowSyntheticDefaultImports": true, // Дозволити імпорт модулів за замовчуванням
+    "baseUrl": "./", // Базовий шлях для вашого проекту
+    "paths": {
+      "@/*": ["src/*"] // Псевдоніми для шляхів до файлів
+    }
+  },
+  "exclude": [
+    "node_modules", // Виключити папку node_modules
+    "**/node_modules/*"
+  ],
+  "include": [
+    "cypress/**/*.js", // Включити всі JavaScript файли в папці cypress та її підпапках
+    "cypress/support/pages/welcomePageHeader.js" // Включити конкретний файл welcomePageHeader.js
+  ]
+}
