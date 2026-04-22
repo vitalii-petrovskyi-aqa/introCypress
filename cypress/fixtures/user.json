@@ -1,0 +1,28 @@
+
+{
+  "user1": {
+    "firstName": "Vitalii",
+    "lastName": "Petrovskyi",
+    "email": "vitpet.user1.v1@gmail.com",
+    "password": "Test12345"
+  },
+  "user2": {
+    "firstName": "Vitalii",
+    "lastName": "Petrovskyi",
+    "email": "vitpet.user1.v2@gmail.com",
+    "password": "Test12345"
+  },
+  
+  "user3": {
+    "firstName": "Vitalii",
+    "lastName": "Petrovskyi",
+    "email": "vitpet.user1.v19.1@gmail.com",
+    "password": "Test12345"
+  },
+  "user4": {
+    "firstName": "Vitalii",
+    "lastName": "Petrovskyi",
+    "email": "vitpet.user1.v19.2@gmail.com",
+    "password": "Test12345"
+  }
+}
