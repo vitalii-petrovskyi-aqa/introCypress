@@ -1,0 +1,14 @@
+{
+  "creatingResource": {
+    "userId": "11",
+    "id": 101,
+    "title": "A Memoir by the Creator of NIKE by Phil Knight",
+    "body": "Shoes of Life. The story of Nike told by its founder is a book by Phil Knight, the founder of Nike."
+  },
+  "updatedPost": {
+    "userId": "11",
+    "id": 8,
+    "title": "The Adidas Archive. the Footwear Collection",
+    "body": "More than 100 years ago the brothers Adolf (Adi) and Rudolf Dassler made their first pair of sports shoes."
+  }
+}

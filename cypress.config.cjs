@@ -25,7 +25,7 @@ module.exports = defineConfig({
   },
   e2e: {
     supportFile: false,
-    fixturesFolder: false,
+    fixturesFolder: "cypress/fixtures",
     setupNodeEvents(on, config) {
       const environmentName = config.env.environmentName || 'local';
       const environmentFilename = `./cypress/config/${environmentName}.settings.json`;

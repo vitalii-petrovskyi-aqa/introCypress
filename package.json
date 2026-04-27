@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:qauto": "cypress run --env environmentName=qauto --spec cypress/e2e/hw19.cy.js",
     "test:qauto2": "cypress run --env environmentName=qauto --spec cypress/e2e/hw19.cy.js",
-    "test:report": "npx cypress run --reporter mochawesome --reporter-options reportDir=\"cypress/results\",overwrite=false,html=false,json=true --env environmentName=qauto --spec cypress/e2e/hw19.cy.js && npx mochawesome-merge \"cypress/results/*.json\" > mochawesome.json && npx marge mochawesome.json"
+    "test:report": "npx cypress run --reporter mochawesome --reporter-options reportDir=\"cypress/results\",overwrite=false,html=false,json=true --env environmentName=qauto --spec cypress/e2e/hw19.cy.js && npx mochawesome-merge \"cypress/results/*.json\" > mochawesome.json && npx marge mochawesome.json",
+    "test:hw20": "cypress run --env environmentName=qauto --spec cypress/e2e/hw20.cy.js",
+    "test:hw202": "cypress run --spec cypress/e2e/hw202.cy.js"
   },
   "devDependencies": {
     "cypress": "^15.13.0",
